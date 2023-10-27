@@ -10,7 +10,7 @@ export default function RootLayout({children}) {
 
     return (
         <html lang="fa" dir={"rtl"} data-theme="ertebat">
-        <body className={"max-w-[1800px] mx-auto"}>
+        <body className={"max-w-[2000px] mx-auto"}>
         <ToastContainer
             position={"bottom-left"}
             rtl={true}

@@ -95,7 +95,7 @@ export default function BlogSlider({ slider }) {
     },
     1024: {
       slidesPerView: 2,
-      spaceBetween: 30,
+      spaceBetween: 0,
     },
   };
 
@@ -125,7 +125,7 @@ export default function BlogSlider({ slider }) {
           آخرین و بروز ترین اطلاعات تکنولوژی و دنیای برنامه نویسی را با ما تجربه
           کنید.
         </div>
-        <div className={"flex items-center my-7 lg:justify-center"}>
+        <div className={"flex items-center my-10 lg:justify-center"}>
           <Button
             variant={"text"}
             onClick={() => swiperRef.current?.slidePrev()}
@@ -150,7 +150,7 @@ export default function BlogSlider({ slider }) {
       {/*// ** slider*/}
 
       <Swiper
-        className={"w-full lg:w-[60%]"}
+        className={"w-full lg:w-[50%]"}
         centeredSlides={true}
         slidesPerView={1}
         onBeforeInit={(swiper) => {

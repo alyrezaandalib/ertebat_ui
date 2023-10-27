@@ -30,7 +30,7 @@ export default function ContactUs() {
     <div>
       <div
         className={
-          "flex justify-center w-full lg:bg-accent/30 rounded-lg h-[555px] lg:h-[555px] lg:mb-10 relative overflow-clip"
+          "flex justify-center lg:justify-start items-center w-full lg:pr-20 lg:bg-accent/30 rounded-lg h-[555px] lg:h-[700px] lg:mb-14 relative overflow-clip"
         }
       >
         <Image
@@ -41,7 +41,7 @@ export default function ContactUs() {
           }
           style={{ height: "300%" }}
         />
-        <div className={"absolute top-[9%] lg:right-[4%]"}>
+        <div className={"z-10"}>
           <ContactInfo
             slider={slider}
             setSlider={setSlider}

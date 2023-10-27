@@ -89,7 +89,7 @@ export default function CommentSlider() {
           <div className={"mt-3 text-neutral/60 leading-8 text-sm"}>
             ما همیشه به نظرات و بازخوردهای شما، مشتریان گرامی‌امان ارزش می‌دهیم واز آنها بهره‌مند می‌شویم.
           </div>
-          <div className={"flex items-center my-7 lg:justify-center"}>
+          <div className={"flex items-center my-10 lg:justify-center"}>
             <Button
                 variant={"text"}
                 onClick={() => swiperRef.current?.slidePrev()}
@@ -114,7 +114,7 @@ export default function CommentSlider() {
         {/*// ** slider*/}
 
         <Swiper
-            className={"w-full lg:w-[60%]"}
+            className={"w-full lg:w-[50%]"}
             centeredSlides={true}
             slidesPerView={1}
             onBeforeInit={(swiper) => {

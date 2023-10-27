@@ -22,7 +22,7 @@ export default function NavBar() {
     <header className={"w-full navbar text-sm bg-none z-20"}>
       <div
         className={
-          "hidden lg:flex flex-row justify-between items-center w-full py-3 px-14"
+          "hidden lg:flex flex-row justify-between items-center w-full py-5 px-14"
         }
       >
         <div className={"flex items-center"}>
@@ -32,10 +32,10 @@ export default function NavBar() {
           >
             <Image src={ertebatLogo} alt={"ertebat logo"} className={"w-28"} />
           </Link>
-          <ul className={"tabs "}>
+          <ul className={"tabs"}>
             {headerItems.map((item, index) => {
               return (
-                <li className={""} key={index}>
+                <li key={index}>
                   <NavLink
                     href={item.href}
                     label={item.label}

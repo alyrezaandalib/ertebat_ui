@@ -181,9 +181,7 @@ export default function MainPage() {
 
       <div className={"hidden md:block"}>
         <div
-          className={
-            "flex justify-center items-center w-[80%] h-screen mx-auto"
-          }
+          className={"flex justify-center items-center w-[80%] mx-auto my-20"}
         >
           <div className={"w-[50%] text-center leading-10"}>
             <div style={{ fontSize: 20, fontWeight: 400 }} className={"mb-6"}>
@@ -207,7 +205,7 @@ export default function MainPage() {
             <Image
               src={say_hello}
               alt={""}
-              className={"w-[500px] lg:w-[330px] my-0 mx-10"}
+              className={"w-[500px] lg:w-[400px] my-0 mx-10"}
             />
           </div>
         </div>
